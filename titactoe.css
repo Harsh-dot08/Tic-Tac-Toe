@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: 40vh;
+    height: 30vh;
 }
 .chance{
         color: #79A9D1;
