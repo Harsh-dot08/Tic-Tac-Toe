@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="titactoe.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="up">
+        <div class="initial">
+            <h1>Welcome to <br>Tic-Tac-Toe</h1>
+            <h2>Come! Let's Play</h2>
+        </div>
+        <div class="in">
+            <h2>First enter the Name of players</h2>
+            <label for="in1">Enter Name of Player who want to take O</label>
+            <input type="text" id="in1" placeholder="Name">
+            <label for="in2">Enter Name of Player who want to take X</label>
+            <input type="text" id="in2" placeholder="Name">
+            <button class="go">Let's Go</button>
+        </div>
+    </div>
+    <div class="down hide">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="msg hide">
+        <img height="200px" src="winner.gif",alt="Winner" class="wins hide">
+        <img height="200px" src="200w.gif",alt="Draw" class="draw hide">
+        <p id="msg1">Hello</p>
+        <button class="new">New game</button>
+    </div>
+    <div class="container">
+        <div class="game">
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+    </div>
+</div>
+<div class="end">
+    <h2 class="chance"></h2>
+    <button class="reset hide">Reset Game</button>
+    <button class="start">Start Game</button>
+</div>
+    </div>
+    <script src="tictactoe.js"></script>
+</body>
+</html>
